@@ -103,6 +103,7 @@ form.addEventListener('submit', async (e)=>{
 
             document.getElementById('hero').innerHTML = cardTVInfo;
             document.getElementById('titles').innerHTML = titles;
+            document.getElementById('buttons').style.display = 'none';
 
 
             // manejo de errores
